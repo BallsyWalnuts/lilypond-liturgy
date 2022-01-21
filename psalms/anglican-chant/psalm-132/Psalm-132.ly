@@ -1,4 +1,5 @@
 \version "2.22.1"
+\language "english"
 
 \header {
   title = "Psalm 132"
@@ -6,28 +7,28 @@
 }
 
 SopranoMusic = \relative {
-  bes'1 | g2 bes2 | aes1 \bar "||"
-  g1 | f2 aes2 | g2 f2 | ees1 \bar "||"
+  bf'1 | g2 bf | af1 \bar "||"
+  g | f2 af | g f | ef1 \bar "||"
 }
 
 AltoMusic = \relative {
-  g'1 | g2 f2 | ees1 \bar "||"
-  ees1 | c2 c2 | d2 d2 | ees1 \bar "||"
+  g'1 | g2 f | ef1 \bar "||"
+  ef | c2 c | d d | ef1 \bar "||"
 }
 
 TenorMusic = \relative {
-  bes1 | ees2 d2 | c1 \bar "||"
-  bes1 | aes2 f2 | bes2 aes2 | g1 \bar "||"
+  bf1 | ef2 d | c1 \bar "||"
+  bf | af2 f | bf af | g1 \bar "||"
 }
 
 BassMusic = \relative {
-  ees1 | ees2 ees2 | ees1 \bar "||"
-  ees1 | aes,2 aes2 | bes2 bes2 | ees1 \bar "||"
+  ef1 | ef2 ef | ef1 \bar "||"
+  ef | af,2 af | bf bf | ef1 \bar "||"
 }
 
 global = {
   \time 2/2
-  \key ees \major
+  \key ef \major
 }
 
 dot = \markup {
