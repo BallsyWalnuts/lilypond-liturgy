@@ -69,12 +69,18 @@ verse_five = \lyricmode {
   While un -- end -- ing a -- ges run.
 }
 
-upper = \relative {
+upper = \relative {<<
   \clef treble 
   \key ef \major 
   \cadenzaOn
-  <ef' c'>4 
-}
+  {c'' c8[ bf af] bf[ c] c f,4
+  af8[ bf g af] f[ ef] f4
+  af8[ f g af] bf[ c] bf[ af g] f4
+  g8[ af g f] g[ f] ef4
+  c8[ ef f] f f[ ef] af[ bf] bf af4
+  c8[ bf af g] af[ bf af g] f[ ef] f4
+  f8[ g f] ef4 f}
+>>}
 
 lower = \relative {
   \clef bass 
