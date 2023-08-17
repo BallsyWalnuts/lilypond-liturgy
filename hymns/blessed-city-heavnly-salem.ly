@@ -17,6 +17,7 @@ melody = \relative {
   g8 af g f g f ef 4 \bar "|"
   c8 ef[( f]) f f[( ef]) af bf bf af4 \bar "'"
   c8 bf af[( g]) af[( bf]) af[( g f)] ef f4 \bar "|."
+  f8[ g f] ef4( f) \bar "|."
 }
 
 verse_one = \lyricmode {
@@ -67,26 +68,34 @@ verse_five = \lyricmode {
   Ev -- er Three, and ev -- er One,
   Con -- sub -- stan -- tial, co -- e -- ter -- nal,
   While un -- end -- ing a -- ges run.
+  A -- men.
 }
 
 upper = \relative {<<
   \clef treble 
   \key ef \major 
   \cadenzaOn
-  {c'' c8[ bf af] bf[ c] c f,4
+  {\stemUp c'' c8[ bf af] bf[ c] c f,4
   af8[ bf g af] f[ ef] f4
   af8[ f g af] bf[ c] bf[ af g] f4
   g8[ af g f] g[ f] ef4
   c8[ ef f] f f[ ef] af[ bf] bf af4
   c8[ bf af g] af[ bf af g] f[ ef] f4
   f8[ g f] ef4 f}
+  {}
 >>}
 
 lower = \relative {
   \clef bass 
   \key ef \major 
   \cadenzaOn
-  <c g'>4
+  <c g'>4 df4. <bf f'>4 <af f'>4.
+  2 <c g'>4 <f af>4
+  2 <ef g>4 <bf f'>4. <af f'>4
+  <c ef> <af c'> <bf' g,> <ef, g>
+  <af, af'>4. <g g'> <af f'>4 <df, df'>4.
+  <c c'>4~ 2 <bf' bf'>4 <af af'>8[ <g g'>] <f f'>4
+  <bf bf'>4. <c g'>4 <f, af'>
 }
 
 \score {
