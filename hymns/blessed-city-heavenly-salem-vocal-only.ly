@@ -13,7 +13,7 @@ melody = \relative {
   \key ef \major 
   \cadenzaOn
   c''8 c c( bf) af bf c c f,4 \bar "'"
-  af8 bf d af f ef f4 \bar "|"
+  af8 bf g af f ef f4 \bar "|"
   af8 f g af bf c bf[( af g]) f4 \bar "'"
   g8 af g f g f ef 4 \bar "|"
   c8 ef[( f]) f f[( ef]) af bf bf af4 \bar "'"
