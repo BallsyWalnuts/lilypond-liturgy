@@ -25,7 +25,7 @@ verse_one = \lyricmode {
   \set stanza = "1. "
     Bless -- ed ci -- ty heav'n -- ly Sa -- lem, 
     Vi -- sion dear of peace and love,
-    Who of li -- ving stones are build -- ed
+    Who of li -- ving stones art build -- ed
     In the height of heav'n a -- bove,
     And, with an -- gel hosts en -- cir -- cled,
     As a bride dost earth -- ward move;
@@ -48,7 +48,7 @@ verse_three = \lyricmode {
   And by vir -- tue of his mer -- its
   Thith -- er faith -- ful souls do soar,
   Who, for Christ's dear Name, in this world
-  Pain and tirb -- u -- la -- tion bore.
+  Pain and trib -- u -- la -- tion bore.
 }
 
 verse_four = \lyricmode {
