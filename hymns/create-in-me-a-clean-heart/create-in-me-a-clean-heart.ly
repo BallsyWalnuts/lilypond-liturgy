@@ -26,13 +26,32 @@ melody = \relative {
   2. 2.
 } % Define the melody for lyrics association
 
+alto = \relative {
+  \global
+  bf4 c d | ef ef ef | ef2 d4 | ef2. |
+  ef2 af4 | g f f | ef ef ef | ef d bf'\rest |
+}
+
+tenor = \relative {
+  \global
+}
+
+bass = \relative {
+  \global
+}
+
 \score {
   \new ChoirStaff <<
-    \new Staff {
+    \new Staff <<
       \new Voice = "soprano" { % Give the voice a name for lyric association
+        \voiceOne
         \melody
       }
-    }
+      \new Voice = "alto" {
+        \voiceTwo
+        \alto
+      }
+    >>
 
     \new Lyrics \lyricsto "soprano" { % Associate lyrics with the "soprano" voice
       Cre -- ate in me a clean heart, O God, and re -- new a right spir -- it with -- in me.
@@ -42,8 +61,12 @@ melody = \relative {
     }
 
     \new Staff {
-      \new Voice {
-        \relative { d'4 d d d }
+      \clef bass
+      \new Voice = "tenor" {
+        \tenor
+      }
+      \new Voice = "bass" {
+        \bass
       }
     }
     
