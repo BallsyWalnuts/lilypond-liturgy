@@ -47,4 +47,13 @@ tenor = \relative {
 
 bass = \relative {
     \global
+    f1 | bf,2 (f') | f, (a) | c1 | f2 g | c,1 |
+    s2 f | bf, c | c g | a4 (bf) c2 | f,1 |
+    s2 d' | c g | d' a | c d4 (c) | c1 |
+    s2 c | bf g | f2. bf4 | f'2 bf, | a1 |
+    d | a2 bf | c c | f g | c,1 |
+    s2 f | bf, a | c g | a4 (bf) c2 | f,1 |
+    s2 f' | c g | d' a | c (d4 c) | c1 |
+    s2 c | bf g | f2. bf4 | f2 c' | d (c) | f,1 |
+    s2 c' | a d | bf g | f c' | f,1 |
 }
