@@ -1,6 +1,7 @@
 \version "2.22.2"
 \language "english"
 \include "../tunes/komm-heiliger-geist-herre-gott.ly"
+\include "../lyrics/come-holy-ghost-god-and-lord.ly"
 
 \header {
     title = "Come, Holy Ghost, God and Lord"
@@ -19,6 +20,11 @@
                 \alto
             }
         >>
+
+        \new Lyrics \lyricsto "soprano" \verseOne
+        \new Lyrics \lyricsto "soprano" \verseTwo
+        \new Lyrics \lyricsto "soprano" \verseThree
+
         \new Staff = "lower" <<
             \clef "bass"
             \new Voice = "tenor" {
