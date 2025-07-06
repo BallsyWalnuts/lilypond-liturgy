@@ -3,10 +3,38 @@
 \include "../tunes/komm-heiliger-geist-herre-gott.ly"
 \include "../lyrics/come-holy-ghost-god-and-lord.ly"
 
+#(set-global-staff-size 18.5)
+
 \header {
-    title = "Come, Holy Ghost, God and Lord"
-    subtitle = "7.8. 8.8. 8.8. 7.9. 8."
+    title = \markup {
+        \center-column {
+            \line { "Come, Holy Ghost, God and Lord" } % Title line
+            \small \normal-text \line { "7.8. 8.8. 8.8. 7.9. 8." } % Syllable count line
+        }
+    }
+    composer = \markup {
+        \override #'(baseline-skip . 2)
+        \right-column {
+            \bold "Komm, Heiliger Geist, Herre Gott"
+            "Erfurt Enchirdion, 1524"
+            "Arr. composite"
+        }
+    }
+    poet = \markup {
+        \override #'(baseline-skip . 2)
+        \column {
+            \italic "Komm, Heiliger Geist, Herre Gott"
+            "St. 1, German, 15th c."
+            "Sts. 2-3, Martin Luther, 1524"
+            "Tr. composite"
+        }
+    }
 }
+
+\paper {
+    tagline = ##f
+}
+
 
 \score {
     \new ChoirStaff <<
