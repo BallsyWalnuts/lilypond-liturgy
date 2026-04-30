@@ -25,5 +25,5 @@ verseThree = \lyricmode {
     We thee un -- seen a -- dore:
     Grant, when our life is en -- ded,
     That we to heav'n as -- cend -- ed,
-    May see the ev -- er -- more.
+    May see thee ev -- er -- more.
 }
