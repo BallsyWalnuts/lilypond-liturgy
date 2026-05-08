@@ -29,7 +29,7 @@ melody = \relative c' {
   d4 g g e g f d d2 a'4 a a g a f2 \bar "|" 
   g4 a a a g a2 d, e4 f g g c bf a2 \bar "|" 
   a4 g f d f e d d2. \bar "|" 
-  a'4 bf c a bf c d d2 \bar "|"
+  a'4 bf c a bf c d d \bar "|"
   d4 c a a a g a f g f e d2. \bar "|" 
   a'4 a f g a g c a2 g4 a a a a f f e2. \bar "|" 
   f4 g g e f2 e d2. \bar "|" 
