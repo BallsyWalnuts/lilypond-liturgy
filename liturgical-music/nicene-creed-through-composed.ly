@@ -62,7 +62,7 @@ text = \lyricmode {
   and was in -- car -- nate by the Ho -- ly Spi -- rit and the vir -- gin Ma -- ry, 
   and was made man;
   was cru -- ci -- fied al -- so for us, un -- der Pon -- tius Pi -- late,
-  and suf -- fered, and was bu -- ried; and the thrie day rose a -- gain,
+  and suf -- fered, and was bu -- ried; and the third day rose a -- gain,
   in ful -- fil -- ment of the Scrip -- tures;
   and as -- cen -- ded in -- to hea -- ven
   and is seat -- ed at the right hand of the Fa -- ther,
